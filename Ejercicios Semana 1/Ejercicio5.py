@@ -11,7 +11,9 @@ Menos de 60: F
 """
 calificacion = int(input("Ingrese calificación: "))
 
-if calificacion >= 90 and calificacion <= 100:
+if calificacion < 0 or calificacion > 100:
+    print("Error: solo rango permitido de 0 a 100")
+elif calificacion >= 90:
     print("A")
 elif calificacion >= 80:
     print("B")
@@ -19,9 +21,7 @@ elif calificacion >= 70:
     print("C")
 elif calificacion >= 60:
     print("D")
-elif calificacion >= 0:
-    print("F")
 else:
-    print("Error: solo rango permitido de 0 a 100")
+    print("F")
 
 
