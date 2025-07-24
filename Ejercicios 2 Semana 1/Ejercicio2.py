@@ -12,7 +12,7 @@ for i in numeros:
 
 print(f"La suma total de la lista es: {suma}")
 
-
+#print(sum(numeros))
 
 
 

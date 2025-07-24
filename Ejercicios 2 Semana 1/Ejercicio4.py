@@ -17,6 +17,17 @@ for i in numeros:
 print(f"Hay {pares} números pares y {impares} números impares en la lista.")
 
 
+################################################################
 
 
+# num = [2,5,8,9,15,10]
+# par = []
+# impar = []
 
+# for i in num:
+#     if i %2 == 0:
+#         par.append(i)
+#     else:
+#         impar.append(i)
+# print(f"Los números pares son: {len(par)} {par}")
+# print(f"Los números impares son: {len(impar)} {impar}")
